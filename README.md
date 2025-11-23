@@ -1,10 +1,34 @@
-This repository contains the core scripts used for our PV (photovoltaic) modeling workflow.  
-It includes:
+# PV Modeling Base
 
-- Data preparation and cleaning  
-- Irradiance and temperature preprocessing  
-- Feature engineering for PV performance modeling  
-- Baseline PV prediction and evaluation scripts  
+Core scripts for my ongoing PV modeling research.
 
-These scripts serve as the foundation for subsequent experiments and paper-specific analyses.
+Here you'll find:
+- Data preparation & preprocessing routines
+- Irradiance/temperature handling
+- Feature engineering for PV performance modeling
+- Baseline modeling and evaluation
+
+Basically, everything I keep reusing whenever I start a new PV experiment.
+
+---
+
+## Repository Structure
+
+pv-modeling-base/
+├── data_preprocessing/
+│   ├── asos_agg.py
+│   ├── aws_agg.py
+│   └── airk_agg.py 
+│   └── kpx.py
+├── modeling/
+│   ├── global_attenuation_model_v1.py
+│   └── cf_model_tuning_v1.py
+│   └── global_cf_model_v1.py
+└── README.md
+
+
+## Usage
+
+Each script is modular, so you can run them independently depending on which part 
+of the PV workflow you're working on.
 
