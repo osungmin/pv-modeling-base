@@ -10,10 +10,10 @@ Here you'll find:
 
 Basically, everything I keep reusing whenever I start a new PV experiment.
 
----
+
 
 ## Repository Structure
-
+```
 pv-modeling-base/
 ├── data_preprocessing/
 │   ├── asos_agg.py
@@ -25,6 +25,8 @@ pv-modeling-base/
 │   └── cf_model_tuning_v1.py
 │   └── global_cf_model_v1.py
 └── README.md
+```
+
 
 
 ## Usage
